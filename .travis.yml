@@ -9,4 +9,4 @@ osx_image: beta-xcode6.3
 # whitelist
 branches:
   only:
-    - master    - master
+    - master
