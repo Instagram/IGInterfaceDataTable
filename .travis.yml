@@ -4,6 +4,7 @@ before_install:
   - brew reinstall xctool
   - xcrun simctl list
 script: xctool project IGInterfaceDataTable.xcodeproj scheme 'IGInterfaceDataTable' -configuration Debug -sdk iphonesimulator8.2 -arch i386 build
+osx_image: beta-xcode6.3
 
 # whitelist
 branches:
