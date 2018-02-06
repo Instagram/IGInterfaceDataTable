@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29BE4EC01A97A59F0025C38E"
+               BlueprintIdentifier = "6595295A1B3BC97000AED25B"
                BuildableName = "IGInterfaceDataTable.framework"
-               BlueprintName = "IGInterfaceDataTable"
+               BlueprintName = "IGInterfaceDataTable watchOS"
                ReferencedContainer = "container:IGInterfaceDataTable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "29BE4EC01A97A59F0025C38E"
+            BlueprintIdentifier = "6595295A1B3BC97000AED25B"
             BuildableName = "IGInterfaceDataTable.framework"
-            BlueprintName = "IGInterfaceDataTable"
+            BlueprintName = "IGInterfaceDataTable watchOS"
             ReferencedContainer = "container:IGInterfaceDataTable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "29BE4EC01A97A59F0025C38E"
+            BlueprintIdentifier = "6595295A1B3BC97000AED25B"
             BuildableName = "IGInterfaceDataTable.framework"
-            BlueprintName = "IGInterfaceDataTable"
+            BlueprintName = "IGInterfaceDataTable watchOS"
             ReferencedContainer = "container:IGInterfaceDataTable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

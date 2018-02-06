@@ -10,6 +10,13 @@
 		29BE4EC71A97A59F0025C38E /* IGInterfaceDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BE4EC61A97A59F0025C38E /* IGInterfaceDataTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29BE4EE61A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BE4EE41A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29BE4EE71A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BE4EE51A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.m */; };
+		6595295E1B3BC97000AED25B /* IGInterfaceDataTable watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6595295D1B3BC97000AED25B /* IGInterfaceDataTable watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659529631B3BC97F00AED25B /* WKInterfaceTable+IGInterfaceDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BE4EE41A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659529641B3BC99100AED25B /* WKInterfaceTable+IGInterfaceDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BE4EE51A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.m */; };
+		659529671B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 659529651B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659529681B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 659529661B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.m */; };
+		6595296B1B3BD0E100AED25B /* NSIndexPath+WatchOSIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 659529661B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.m */; };
+		6595296C1B3BD0EC00AED25B /* NSIndexPath+WatchOSIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 659529651B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,10 +25,23 @@
 		29BE4EC61A97A59F0025C38E /* IGInterfaceDataTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGInterfaceDataTable.h; sourceTree = "<group>"; };
 		29BE4EE41A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceTable+IGInterfaceDataTable.h"; sourceTree = "<group>"; };
 		29BE4EE51A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceTable+IGInterfaceDataTable.m"; sourceTree = "<group>"; };
+		6595295B1B3BC97000AED25B /* IGInterfaceDataTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGInterfaceDataTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6595295D1B3BC97000AED25B /* IGInterfaceDataTable watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IGInterfaceDataTable watchOS.h"; sourceTree = "<group>"; };
+		6595295F1B3BC97000AED25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659529651B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+WatchOSIndexPath.h"; sourceTree = "<group>"; };
+		659529661B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+WatchOSIndexPath.m"; sourceTree = "<group>"; };
+		6595296A1B3BCFC900AED25B /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		29BE4EBD1A97A59F0025C38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659529571B3BC97000AED25B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				29BE4EC31A97A59F0025C38E /* IGInterfaceDataTable */,
+				6595295C1B3BC97000AED25B /* IGInterfaceDataTable watchOS */,
 				29BE4EC21A97A59F0025C38E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				29BE4EC11A97A59F0025C38E /* IGInterfaceDataTable.framework */,
+				6595295B1B3BC97000AED25B /* IGInterfaceDataTable.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +76,8 @@
 				29BE4EC41A97A59F0025C38E /* Supporting Files */,
 				29BE4EE41A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h */,
 				29BE4EE51A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.m */,
+				659529651B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.h */,
+				659529661B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.m */,
 			);
 			path = IGInterfaceDataTable;
 			sourceTree = "<group>";
@@ -66,6 +90,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6595295C1B3BC97000AED25B /* IGInterfaceDataTable watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6595295D1B3BC97000AED25B /* IGInterfaceDataTable watchOS.h */,
+				6595295F1B3BC97000AED25B /* Info.plist */,
+				6595296A1B3BCFC900AED25B /* module.modulemap */,
+			);
+			path = "IGInterfaceDataTable watchOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -73,8 +107,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BE4EE61A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h in Headers */,
 				29BE4EC71A97A59F0025C38E /* IGInterfaceDataTable.h in Headers */,
+				29BE4EE61A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.h in Headers */,
+				659529671B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659529581B3BC97000AED25B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6595295E1B3BC97000AED25B /* IGInterfaceDataTable watchOS.h in Headers */,
+				659529631B3BC97F00AED25B /* WKInterfaceTable+IGInterfaceDataTable.h in Headers */,
+				6595296C1B3BD0EC00AED25B /* NSIndexPath+WatchOSIndexPath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,17 +144,38 @@
 			productReference = 29BE4EC11A97A59F0025C38E /* IGInterfaceDataTable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		6595295A1B3BC97000AED25B /* IGInterfaceDataTable watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659529621B3BC97000AED25B /* Build configuration list for PBXNativeTarget "IGInterfaceDataTable watchOS" */;
+			buildPhases = (
+				659529561B3BC97000AED25B /* Sources */,
+				659529571B3BC97000AED25B /* Frameworks */,
+				659529581B3BC97000AED25B /* Headers */,
+				659529591B3BC97000AED25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IGInterfaceDataTable watchOS";
+			productName = "IGInterfaceDataTable watchOS";
+			productReference = 6595295B1B3BC97000AED25B /* IGInterfaceDataTable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29BE4EB81A97A59F0025C38E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					29BE4EC01A97A59F0025C38E = {
 						CreatedOnToolsVersion = 6.2;
+					};
+					6595295A1B3BC97000AED25B = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -127,12 +193,20 @@
 			projectRoot = "";
 			targets = (
 				29BE4EC01A97A59F0025C38E /* IGInterfaceDataTable */,
+				6595295A1B3BC97000AED25B /* IGInterfaceDataTable watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		29BE4EBF1A97A59F0025C38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659529591B3BC97000AED25B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,7 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659529681B3BCD1200AED25B /* NSIndexPath+WatchOSIndexPath.m in Sources */,
 				29BE4EE71A984D0A0025C38E /* WKInterfaceTable+IGInterfaceDataTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659529561B3BC97000AED25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6595296B1B3BD0E100AED25B /* NSIndexPath+WatchOSIndexPath.m in Sources */,
+				659529641B3BC99100AED25B /* WKInterfaceTable+IGInterfaceDataTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +258,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -248,6 +333,7 @@
 				INFOPLIST_FILE = IGInterfaceDataTable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -264,8 +350,54 @@
 				INFOPLIST_FILE = IGInterfaceDataTable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		659529601B3BC97000AED25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "IGInterfaceDataTable watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "${SRCROOT}/IGInterfaceDataTable watchOS/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion.IGInterfaceDataTable-watchOS";
+				PRODUCT_NAME = IGInterfaceDataTable;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		659529611B3BC97000AED25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "IGInterfaceDataTable watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "${SRCROOT}/IGInterfaceDataTable watchOS/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dailymotion.IGInterfaceDataTable-watchOS";
+				PRODUCT_NAME = IGInterfaceDataTable;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -286,6 +418,15 @@
 			buildConfigurations = (
 				29BE4ED81A97A59F0025C38E /* Debug */,
 				29BE4ED91A97A59F0025C38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659529621B3BC97000AED25B /* Build configuration list for PBXNativeTarget "IGInterfaceDataTable watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659529601B3BC97000AED25B /* Debug */,
+				659529611B3BC97000AED25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

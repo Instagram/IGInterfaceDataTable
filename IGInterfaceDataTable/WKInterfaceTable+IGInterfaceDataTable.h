@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 #import <WatchKit/WatchKit.h>
-
+#import "NSIndexPath+WatchOSIndexPath.h"
 
 @protocol IGInterfaceTableDataSource <NSObject>
 

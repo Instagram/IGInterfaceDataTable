@@ -9,7 +9,7 @@
  */
 
 #import "WKInterfaceTable+IGInterfaceDataTable.h"
-
+#import "NSIndexPath+WatchOSIndexPath.h"
 #import <objc/runtime.h>
 
 
@@ -375,6 +375,8 @@
     [rowIndexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
       NSObject *controller = [self rowControllerAtIndex:idx];
       IGTableRowData *rowData = rowSectionData[idx];
+
+
       NSIndexPath *indexPath = [NSIndexPath indexPathForRow:rowData.row inSection:rowData.section];
       [self.ig_dataSource table:self configureRowController:controller forIndexPath:indexPath];
     }];

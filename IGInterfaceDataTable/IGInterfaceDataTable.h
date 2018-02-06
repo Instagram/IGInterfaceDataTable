@@ -9,3 +9,4 @@
  */
 
 #import <IGInterfaceDataTable/WKInterfaceTable+IGInterfaceDataTable.h>
+#import <IGInterfaceDataTable/NSIndexPath+WatchOSIndexPath.h>

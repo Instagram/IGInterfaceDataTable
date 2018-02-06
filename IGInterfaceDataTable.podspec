@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'https://twitter.com/fbOpenSource'
 
   spec.ios.deployment_target = '8.2'
+  spec.watchos.deployment_target = '2.0'
 end

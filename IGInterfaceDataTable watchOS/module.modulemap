@@ -1,0 +1,6 @@
+framework module IGInterfaceDataTable {
+    umbrella header "IGInterfaceDataTable watchOS.h"
+
+    export *
+    module * { export * }
+}
